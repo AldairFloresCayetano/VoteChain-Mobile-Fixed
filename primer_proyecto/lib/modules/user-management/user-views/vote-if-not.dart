@@ -72,7 +72,7 @@ class VoteIfNotView extends StatelessWidget {
                       SizedBox(width: 20.0),
                       ElevatedButton(
                         onPressed: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => VoteView()));
+                            Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => ListMasterPoliticalParties()));
                         },
                         style: ElevatedButton.styleFrom(
                           primary: Colors.red,

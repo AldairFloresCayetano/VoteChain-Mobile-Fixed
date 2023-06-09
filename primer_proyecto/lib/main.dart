@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import './modules/user-manager/user-login/user-type.dart';
 
+
+import 'modules/user-management/user-login/user-type.dart';
 void main() {
   runApp(const VoteChainApp());
 }
